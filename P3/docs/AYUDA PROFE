@@ -1,0 +1,31 @@
+mam getpriority -> con dos arg (which, ...)
+
+no se le puede asignar una prioridad mayor a la que ya tiene. Los num negativos son los que mas prioridad tienen
+
+changevar: 
+
+	putenv si no existe la añade, pero no la muestra como 3ra variable del main 
+	
+showen: 
+
+fork: 
+		
+		
+execute:
+		
+	execvpe() -> cuando se utilizan las variables de enterno	
+	
+	
+******:
+
+	cualquier cosa que no sea un comando de la lista de comandos se ejucuta llamando a 
+	
+	
+listjobs: 
+	
+	mostratran los procesos en segundo plano 
+	
+	
+WHOHANG
+
+KILL -9 [PID] -> MATA EL PROCESO 

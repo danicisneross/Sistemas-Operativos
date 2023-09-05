@@ -1,0 +1,102 @@
+Expl
+Práctica 3
+
+
+priority views ou changes the priority of a process
+
+cando pos o pid queres ver a prioridade : priority 3423
+se pos o valor, é que a queres cambiar: priority 3423 3
+
+usar getpriority con PRIO_USER e setpriority
+-20 maior prioridade e 19 menor posible
+
+OLLO, non podes cambiar a maior prioridade da que ten
+
+showvar mostra o valor e as direccións da variable entorno var
+
+showvar HOME
+Con variable do main arg3
+Con environ que é unha palabra reservada que amosa name=value
+(A estas dúas anteriores tamén imprimir dirección de memoria)
+Con getenv que colle unha variable de entorno que lle pases por parámetro
+que devolverá a dirección onde empea exactamente o path ( nas outras ten en conta que HOME son 5
+bytes por ente amosan dir-5)
+
+changevar para cambiar valor de unha variable de entorno
+-a -> arg3
+-e -> environ
+-p-> putenv()
+
+Se non existe , indicar error no existe file or directory
+PERO, se a opción e putenv(), crea unha nova variable , e cando fago showvar non aparece 
+arg3 porque é imputable
+Por ende se fas DISPALY non concorda arg3 con environ e putenv
+
+showenv , por defecto tercer argumento de main , -environ accede por environ. Nesta función si que 
+se gardaría a variable inexistente
+
+
+fork-> creamos proceso fillo clon do pai cun pid novo.
+Polo que se fago un exit volvo ao pai en fez de finalizar o fillo.
+
+Lembra baleirar as listas se pid =fork()==0
+
+
+
+execute executa sen crear outro porceso o programa cos argumentos que lles pase
+execute xterm -fg orange 
+comando  prog  arg1 arg2
+
+Chamadas á familia exec()
+
+Tamén podes indicar variables de entorno:
+execute HOME xterm -fg orange
+para iso execvpce()
+
+Sen var de entorno : execvpc()
+Que de erro se VAR non existe
+
+
+
+
+******* : esto significa que se non é un comando da nosa shell, o trata como se fora da nosa máquina, por ende debe ser capaz de executar cd, ls, fdisk,...
+Creando un novo proceso con fork() e executando con exec()
+
+
+
+Como indicar se o programa/proceso rematou (o estado) ? -> co waitpid ten a var NHO...
+
+
+podes comprobar con kill -s SIGSTOP n_pid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

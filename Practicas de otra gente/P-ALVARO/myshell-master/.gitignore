@@ -1,0 +1,17 @@
+/cmake-build-debug
+CMakeLists.txt
+/.idea
+file.o
+memory.o
+process.o
+hist_list.o
+mem_list.o
+env_list.o
+bg_list.o
+prints.o
+aux_file.o
+aux_mem.o
+aux_proc.o
+shell
+shell3
+log.txt

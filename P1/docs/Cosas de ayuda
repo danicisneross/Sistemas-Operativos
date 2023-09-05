@@ -1,0 +1,26 @@
+				*Explicacion de cosas de la practica*
+
+passwd -> proporciona info del usuario.
+
+lstat -> se examina el enlace simbolico y llena el buf.
+
+stat() -> retorna informacion sobre un archivo o directorio a traves de un argumento de salida.
+	  Stat retorna -1 si ocurre algun error.
+
+strftime -> formatea la hora al formato que quieras.
+
+d-> d_name : contenido de d 
+
+getcwd -> escribe en un determinado array el directorio actual. 
+
+chdir -> cambia el directorio de trabajo actual de un sistema.
+
+time_t -> tipo de dato definido para el almacenamiento de valores de tiempo del sistema.
+
+localtime() -> funcion que retorna la hora local del usuario. 
+
+strtok -> El contenido de esta cadena se modifica y se divide en cadenas más pequeñas.
+
+strtol -> Convierte la cadena a la que apunta el parámetro str en un entero largo (tipo long int) de acuerdo con la base dada.
+
+mkdir -> Creates files or directories. Devuelve el valor 0 si se ha creado el directorio nuevo y -1 si ocurre algun error. 
